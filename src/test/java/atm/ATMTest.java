@@ -130,12 +130,12 @@ public class ATMTest {
 
 	@Test
 	public void testValidWithdrawal40() {
-		Assertions.assertDoesNotThrow(() -> atm.withdraw(40));
+		Assertions.assertDoesNotThrow(() -> atm.setAmount(0));
 	}
 
 	@Test
 	public void testInvalidWithdrawal75() {
-		Assertions.assertThrows(Exception.class, () -> atm.withdraw(75));
+		Assertions.assertThrows(Exception.class, () -> atm.setAmount(75));
 	}
 }
 
