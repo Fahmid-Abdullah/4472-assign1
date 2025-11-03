@@ -4,7 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6cdd980-7b7f-4ea4-b0eb-260671bdf155" name="Changes" comment="" />
+    <list default="true" id="f6cdd980-7b7f-4ea4-b0eb-260671bdf155" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/dispatcher/JavaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/dispatcher/JavaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/dispatcher/MessageDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/dispatcher/MessageDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/dispatcher/RESTDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/dispatcher/RESTDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/exceptions/InvalidAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/exceptions/InvalidAmountException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/exceptions/InvalidCardNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/exceptions/InvalidCardNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/exceptions/InvalidCredentialsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/exceptions/InvalidCredentialsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/exceptions/InvalidPinFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/exceptions/InvalidPinFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/AmountState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/AmountState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/CardNumberState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/CardNumberState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/FromState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/FromState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/InsertMoneyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/InsertMoneyState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/PendingCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/PendingCardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/PinNumberState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/PinNumberState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/ResultState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/ResultState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/SessionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/SessionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/ToState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/ToState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/states/TransactionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/states/TransactionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMDeposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMDeposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMNoTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMNoTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMTransactionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMTransactionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMWithdrawal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/session/transactions/ATMWithdrawal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/MainUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/AmountPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/AmountPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/FromPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/FromPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/InsertCardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/InsertCardPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/InsertMoneyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/InsertMoneyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/PinPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/PinPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/ResultPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/ResultPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/SubPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/SubPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/ToPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/ToPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/ui/panels/TransactionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/ui/panels/TransactionPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/utils/CashValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/utils/CashValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/utils/CredentialsCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/utils/CredentialsCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atm/utils/FormatChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atm/utils/FormatChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/BankFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/BankFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/BankHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/BankHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/BankServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/BankServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/db/DBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/db/DBHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/exceptions/CardNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/exceptions/CardNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/exceptions/UnsuccessfulBalanceUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/exceptions/UnsuccessfulBalanceUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/exceptions/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/exceptions/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/exceptions/WrongOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/exceptions/WrongOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/BankDeposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/BankDeposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/BankTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/BankTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/BankTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/BankTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/BankWithdrawal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/BankWithdrawal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/utils/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/utils/AccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/utils/TransactionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/utils/TransactionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/utils/TransactionResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/utils/TransactionResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/utils/TransactionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/utils/TransactionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/utils/FeesCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/utils/FeesCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/atm/ATMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/atm/ATMTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bank/utils/FeesCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bank/utils/FeesCalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +100,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "fhd__branch",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/projects/4472A/atm"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ATMTest.checkIncorrectPINTest">
+  <component name="RunManager" selected="JUnit.ATMTest.checkCorrectPINTest">
+    <configuration name="ATMTest.checkCorrectPINTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="atm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="atm" />
+      <option name="MAIN_CLASS_NAME" value="atm.ATMTest" />
+      <option name="METHOD_NAME" value="checkCorrectPINTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ATMTest.checkCorrectPINTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="atm" />
       <extension name="coverage">
@@ -86,6 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ATMTest.checkCorrectPINTest" />
         <item itemvalue="JUnit.ATMTest.checkIncorrectPINTest" />
         <item itemvalue="JUnit.ATMTest.checkCorrectPINTest" />
         <item itemvalue="JUnit.FeesCalculatorTest.withdrawalTest" />
