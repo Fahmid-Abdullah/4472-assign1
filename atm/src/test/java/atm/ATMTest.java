@@ -49,4 +49,30 @@ public class ATMTest {
 		Assertions.assertThrows(InvalidCredentialsException.class, () -> atm.checkPin(new char[] {'5','5','5','4'}));
 	}
 
+	//More PIN format tests (using Robust Worst Case BVA)
+	@Test
+	public void testValidPIN(){
+		Assertions.assertDoesNotThrow(() -> atm.checkPin(new char[] {'1','2','3','4','5'}));
+	}
+
+	@Test
+	public void testShortPIN(){
+		Assertions.assertThrows(Exception.class, () -> atm.checkPin(new char[] {'1','2','3','4'}));
+	}
+
+	@Test
+	public void testLongPIN(){
+		Assertions.assertThrows(Exception.class, () -> atm.checkPin(new char[] {'1','2','3','4','5','6'}));
+	}
+
+	//Edge Cases
+	@Test
+	public void testPINwithLetters(){
+		Assertions.assertThrows(Exception.class, () -> atm.checkPin(new char[] {'1','2','a','3','4'}));
+	}
+
+	@Test
+	public void testEmptyPIN(){
+		Assertions.assertThrows(Exception.class, () -> atm.checkPin(new char[] {}));
+	}
 }
