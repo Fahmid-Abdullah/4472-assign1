@@ -17,34 +17,62 @@ import atm.utils.FormatChecker;
 
 @ExtendWith(MockitoExtension.class)
 public class ATMTest {
-    ATM atm;
-    MessageDispatcher dispatcher;
+	ATM atm;
+	MessageDispatcher dispatcher;
+	
 
-    @BeforeEach
-    public void setUp() throws Exception {
-        dispatcher = Mockito.mock(MessageDispatcher.class);
-        FormatChecker formatCheck = new FormatChecker();
-        CredentialsCheck credentialsCheck = new CredentialsCheck(dispatcher);
-        atm = new ATM(formatCheck, credentialsCheck, dispatcher);
+	@BeforeEach
+	public void setUp() throws Exception {
+		dispatcher = Mockito.mock(MessageDispatcher.class);
+		FormatChecker formatCheck = new FormatChecker();
+		CredentialsCheck credentialsCheck = new CredentialsCheck(dispatcher);
+		atm = new ATM(formatCheck, credentialsCheck, dispatcher);
+		
+		MainPanel mainPanel = Mockito.mock(MainPanel.class);
+		atm.setMainPanel(mainPanel);
+		atm.createSession();
+	}
 
-        MainPanel mainPanel = Mockito.mock(MainPanel.class);
-        atm.setMainPanel(mainPanel);
-        atm.createSession();
-    }
+	@AfterEach
+	public void tearDown() throws Exception {
+	}
 
-    @AfterEach
-    public void tearDown() throws Exception {
-    }
+	@Test
+	public void checkCorrectPINTest() {
+		Mockito.when(dispatcher.checkCredentials(null, new char[] {'5','5','5','5'})).thenReturn(true);
+		Assertions.assertDoesNotThrow(() -> atm.checkPin(new char[] {'5','5','5','5'}));
+	}
+	
+	@Test
+	public void checkIncorrectPINTest() {
+		Mockito.when(dispatcher.checkCredentials(ArgumentMatchers.any(), ArgumentMatchers.any())).thenReturn(false);
+		Assertions.assertThrows(InvalidCredentialsException.class, () -> atm.checkPin(new char[] {'5','5','5','4'}));
+	}
 
-    @Test
-    public void checkCorrectPINTest() {
-        Mockito.when(dispatcher.checkCredentials(null, new char[] {'5','5','5','5'})).thenReturn(true);
-        Assertions.assertDoesNotThrow(() -> atm.checkPin(new char[] {'5','5','5','5'}));
-    }
+	//More PIN format tests (using Robust Worst Case BVA)
+	@Test
+	public void testValidPIN(){
+		Assertions.assertDoesNotThrow(() -> atm.checkPin(new char[] {'1','2','3','4','5'}));
+	}
 
-    @Test
-    public void checkIncorrectPINTest() {
-        Mockito.when(dispatcher.checkCredentials(ArgumentMatchers.any(), ArgumentMatchers.any())).thenReturn(false);
-        Assertions.assertThrows(InvalidCredentialsException.class, () -> atm.checkPin(new char[] {'5','5','5','4'}));
-    }
+	@Test
+	public void testShortPIN(){
+		Assertions.assertThrows(Exception.class, () -> atm.checkPin(new char[] {'1','2','3','4'}));
+	}
+
+	@Test
+	public void testLongPIN(){
+		Assertions.assertThrows(Exception.class, () -> atm.checkPin(new char[] {'1','2','3','4','5','6'}));
+	}
+
+	//Edge Cases
+	@Test
+	public void testPINwithLetters(){
+		Assertions.assertThrows(Exception.class, () -> atm.checkPin(new char[] {'1','2','a','3','4'}));
+	}
+
+	@Test
+	public void testEmptyPIN(){
+		Assertions.assertThrows(Exception.class, () -> atm.checkPin(new char[] {}));
+	}
 }
