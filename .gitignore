@@ -1,4 +1,3 @@
-atm/.idea/
+atm/.idea
+atm/target
 *.class
-atm/target/
-atm/out/
