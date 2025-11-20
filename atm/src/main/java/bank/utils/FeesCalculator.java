@@ -65,7 +65,7 @@ public class FeesCalculator {
 				}
 			}
 		}
-		
+
 		// Calculate interest
 		double interest = amount * interestPercentage;
 		
